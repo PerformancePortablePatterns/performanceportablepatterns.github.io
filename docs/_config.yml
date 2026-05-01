@@ -1,0 +1,17 @@
+title: "Performance Portable Design Patterns"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # You can change this to "dark", "air", etc.
+
+# Site Settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  yntax_highlighter: rouge
+  input: GFM  # GitHub Flavored Markdown
+
+# Enable MathJax site-wide (optional, or do it per page)
+mathjax: true
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
