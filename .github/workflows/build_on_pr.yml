@@ -1,4 +1,4 @@
-name: Build and publish Jekyll site
+name: Build Jekyll site and upload artifact
 on:
  push:
  pull_request:
