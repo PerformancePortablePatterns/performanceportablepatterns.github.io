@@ -2,4 +2,4 @@
 icon: lucide/octagon-minus
 ---
 
-# Restrictions in performance portability
+# Restrictions in heterogeneous computing

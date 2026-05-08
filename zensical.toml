@@ -48,7 +48,7 @@ Copyright &copy; 2026 The authors | This work was supported by the Better Scient
 nav = [
   { "Introduction" = "index.md" },
   { "Why design patterns?" = "why_patterns.md" },
-  { "Restrictions" = "restrictions.md" },
+  { "Restrictions in heterogeneous computing" = "restrictions.md" },
   { "How the patterns are presented" = "how_to.md" },
   { "Patterns" = [
      "patterns/generator_processor_pattern.md",
@@ -101,7 +101,7 @@ nav = [
 # - https://zensical.org/docs/setup/logo-and-icons/#favicon
 # - https://developer.mozilla.org/en-US/docs/Glossary/Favicon
 #
-favicon = "docs/images/ppp_avatar.png"
+favicon = "assets/ppp_avatar_nobg.png"
 
 # Zensical supports more than 60 different languages. This means that the
 # labels and tooltips that Zensical's templates produce are translated.
@@ -262,7 +262,7 @@ features = [
 # option in the "theme" subsection. The logo must be a relative path to a file
 # in your "docs_dir", e.g., to use `docs/assets/logo.png` you would set:
 # ----------------------------------------------------------------------------
-logo = "docs/images/ppp_avatar.png"
+logo = "assets/ppp_avatar_nobg.png"
 
 # ----------------------------------------------------------------------------
 # If you don't have a dedicated project logo, you can use a built-in icon from
