@@ -45,10 +45,17 @@ Copyright &copy; 2026 The authors | This work was supported by the Better Scient
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
+nav = [
+  { "Introduction" = "index.md" },
+  { "Why design patterns?" = "why_patterns.md" },
+  { "Restrictions" = "restrictions.md" },
+  { "How the patterns are presented" = "how_to.md" },
+  { "Patterns" = [
+     "patterns/generator_processor_pattern.md",
+     "patterns/union_hide_pattern.md",
+     "patterns/memory_pool_pattern.md"
+  ] },
+]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
