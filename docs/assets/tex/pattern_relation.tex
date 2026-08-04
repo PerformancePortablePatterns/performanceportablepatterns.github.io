@@ -1,0 +1,70 @@
+\documentclass[tikz,border=2pt]{standalone}
+
+\usepackage{import}
+\import{./}{preamble.tex}
+
+\begin{document}
+\begin{tikzpicture}[
+            % Style for the boxes
+    box/.style={
+        draw,
+        rectangle,
+        minimum width=2cm,
+        minimum height=1.0cm,
+        thick,
+        font=\sffamily
+    },
+    % Style for the arrows
+    arrow_right/.style={
+        -{Stealth[scale=1.2]},
+        thick,
+        shorten >=2pt,
+        shorten <=2pt
+    },
+    arrow_left/.style={
+        {Stealth[scale=1.2]}-,
+        thick,
+        shorten >=2pt,
+        shorten <=2pt
+    },
+    thick_solid_line/.style={
+        |-|,
+        thick,
+        %shorten >=2pt,
+        %shorten <=2pt
+    },
+    dashed_solid_line/.style={
+        |-|,
+        thick,
+        dashed,
+        %shorten >=2pt,
+        %shorten <=2pt
+    },
+    % Positioning distance
+    node distance=0.8cm
+        ]
+
+    % 1. Define the four boxes
+    \node[box] (B1) {Restrictions};
+    \node[box, below=of B1] (B2) {Basic Elements};
+
+    \node[box, below=of B2, yshift=-1.8cm] (B4) {Applications};
+
+    \draw[arrow_left] (B1) -- (B2) node[midway, right, font=\small] {are subject to};
+
+    \coordinate (verticalMidpoint) at ([xshift=-0.8cm,yshift=-0.4cm] B2.south west);
+
+    \node[box, below=of B2, draw=ornl_green, text=ornl_green] (B3) {Design Patterns };
+    \draw[arrow_left] (B2) -- (B3) node[midway, right, font=\small] {compose};
+    \draw[arrow_left] (B3) -- (B4) node[midway, right, font=\small] {use};
+
+    \draw[thick_solid_line] (verticalMidpoint) -- (verticalMidpoint |- B1.north west)
+        node[rotate=90,midway, above] {Library};
+
+    \draw[thick_solid_line] (verticalMidpoint) -- (verticalMidpoint |- B4.south west)
+        node[rotate=90,midway, above] {Developer};
+
+    \node[rotate=90,above=of verticalMidpoint, yshift=0.8cm, xshift=-0.4cm, font=\bfseries\sffamily] {Complexity handled by:};
+
+        \end{tikzpicture}
+\end{document}
