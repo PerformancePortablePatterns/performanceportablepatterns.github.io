@@ -70,4 +70,4 @@ This page was created as part of an [Better Scientifc Software](https://bssw.io)
 The funding details are listed in the footer of this webpage.
 
 
-[^1]: "Design patterns" by Erlich Gamma, Richard Helm, and Ralph Johnson. Published October 1994 by Addison-Wesley Professional
+[^1]: Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides, Design Patterns: Elements of Reusable Object-Oriented Software. Addison-Wesley Professional, 1994
