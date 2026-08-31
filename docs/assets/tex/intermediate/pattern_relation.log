@@ -1,0 +1,794 @@
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Homebrew)  (format=lualatex 2026.3.1)  4 AUG 2026 17:12
+ restricted system commands enabled.
+**pattern_relation.tex
+(./pattern_relation.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "/opt/homebrew/Cellar/texlive/202603
+01/share/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/luatex/lu
+aotfload/fontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/opt/homebrew/Cellar/texlive/202603
+01/share/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'.
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/standalone/st
+andalone.cls
+Document Class: standalone 2025/02/22 v1.5a Class to compile TeX sub-files stan
+dalone
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/tools/shelles
+c.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/iftex/iflua
+tex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/iftex/iftex
+.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/xkeyval/xkeyv
+al.sty
+Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/xkeyval/xke
+yval.tex
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/xkeyval/xkv
+utils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+\XKV@tempb@toks=\toks19
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/xkeyval/key
+val.tex))
+\XKV@depth=\count273
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count274
+\c@sapage=\count275
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/standalone/st
+andalone.cfg
+File: standalone.cfg 2025/02/22 v1.5a Default configuration file for 'standalon
+e' class
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/article.
+cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/size10.c
+lo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /opt/homebrew/Cellar/texlive/2
+0260301/share/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen147
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/luatex85/lu
+atex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pdftexcmds/
+pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/infwarerr/i
+nfwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/ltxcmds/ltx
+cmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks20
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/pgf/frontendl
+ayer/tikz.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/pgf/basiclaye
+r/pgf.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/pgf/utilities
+/pgfrcs.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/utiliti
+es/pgfutil-common.tex
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen148
+\pgfutil@tempdimb=\dimen149
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/utiliti
+es/pgfutil-latex.def
+\pgfutil@abb=\box53
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/utiliti
+es/pgfrcs.code.tex
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/pgf.rev
+ision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/pgf/basiclaye
+r/pgfcore.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/grap
+hicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/grap
+hics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/trig
+.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-cfg/
+graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 106.
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-def/
+luatex.def
+File: luatex.def 2025/09/29 v1.2f Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/pgf/systemlay
+er/pgfsys.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/systeml
+ayer/pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/utiliti
+es/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/utiliti
+es/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks24
+))
+\pgf@x=\dimen152
+\pgf@y=\dimen153
+\pgf@xa=\dimen154
+\pgf@ya=\dimen155
+\pgf@xb=\dimen156
+\pgf@yb=\dimen157
+\pgf@xc=\dimen158
+\pgf@yc=\dimen159
+\pgf@xd=\dimen160
+\pgf@yd=\dimen161
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count284
+\c@pgf@countb=\count285
+\c@pgf@countc=\count286
+\c@pgf@countd=\count287
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count288
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/systeml
+ayer/pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/systeml
+ayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/systeml
+ayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/systeml
+ayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count289
+\pgfsyssoftpath@bigbuffer@items=\count290
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/systeml
+ayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/xcolor/xcolor
+.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-cfg/
+color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/math
+color.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmath.code.tex
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmathutil.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmathparser.code.tex
+\pgfmath@dimen=\dimen162
+\pgfmath@count=\count291
+\pgfmath@box=\box54
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmathfunctions.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmathfunctions.basic.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmathfunctions.trigonometric.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmathfunctions.random.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmathfunctions.comparison.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmathfunctions.base.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmathfunctions.round.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmathfunctions.misc.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmathfunctions.integerarithmetics.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmathcalc.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count292
+))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fint.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen163
+\pgf@picmaxx=\dimen164
+\pgf@picminy=\dimen165
+\pgf@picmaxy=\dimen166
+\pgf@pathminx=\dimen167
+\pgf@pathmaxx=\dimen168
+\pgf@pathminy=\dimen169
+\pgf@pathmaxy=\dimen170
+\pgf@xx=\dimen171
+\pgf@xy=\dimen172
+\pgf@yx=\dimen173
+\pgf@yy=\dimen174
+\pgf@zx=\dimen175
+\pgf@zy=\dimen176
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen177
+\pgf@path@lasty=\dimen178
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen179
+\pgf@shorten@start@additional=\dimen180
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count293
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen181
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen182
+\pgf@pt@y=\dimen183
+\pgf@pt@temp=\dimen184
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen185
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen186
+\pgf@sys@shading@range@num=\count294
+\pgf@shadingcount=\count295
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box58
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/basicla
+yer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/modules
+/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box59
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/modules
+/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/pgf/compatibi
+lity/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen187
+\pgf@nodesepend=\dimen188
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/pgf/compatibi
+lity/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/pgf/utilities
+/pgffor.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/pgf/utilities
+/pgfkeys.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/utiliti
+es/pgfkeys.code.tex))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/pgf/math/pgfm
+ath.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/math/pg
+fmath.code.tex))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/utiliti
+es/pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen189
+\pgffor@skip=\dimen190
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/fronten
+dlayer/tikz/tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/librari
+es/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count296
+\pgfplotmarksize=\dimen191
+)
+\tikz@lastx=\dimen192
+\tikz@lasty=\dimen193
+\tikz@lastxsaved=\dimen194
+\tikz@lastysaved=\dimen195
+\tikz@lastmovetox=\dimen196
+\tikz@lastmovetoy=\dimen197
+\tikzleveldistance=\dimen198
+\tikzsiblingdistance=\dimen199
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count297
+\tikznumberofchildren=\count298
+\tikznumberofcurrentchild=\count299
+\tikz@fig@count=\count300
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/modules
+/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count301
+\pgfmatrixcurrentcolumn=\count302
+\pgf@matrix@numberofcolumns=\count303
+)
+\tikz@expandcount=\count304
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/fronten
+dlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+\sa@box=\box64
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/import/import
+.sty
+Package: import 2020/04/01  v 6.2
+) (././preamble.tex
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/fronten
+dlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/librari
+es/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowinset=\dimen256
+\pgfarrowlength=\dimen257
+\pgfarrowwidth=\dimen258
+\pgfarrowlinewidth=\dimen259
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/tools/multico
+l.sty
+Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
+\c@tracingmulticols=\count305
+\mult@box=\box65
+\multicol@leftmargin=\dimen260
+\c@unbalance=\count306
+\c@collectmore=\count307
+\doublecol@number=\count308
+\multicoltolerance=\count309
+\multicolpretolerance=\count310
+\full@width=\dimen261
+\page@free=\dimen262
+\premulticols=\dimen263
+\postmulticols=\dimen264
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
+\partial@page=\box66
+\last@line=\box67
+\mc@boxedresult=\box68
+\maxbalancingoverflow=\dimen265
+\mult@rightbox=\box69
+\mult@grightbox=\box70
+\mult@firstbox=\box71
+\mult@gfirstbox=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\c@minrows=\count311
+\c@columnbadness=\count312
+\c@finalcolumnbadness=\count313
+\last@try=\dimen266
+\multicolovershoot=\dimen267
+\multicolundershoot=\dimen268
+\mult@nat@firstbox=\box109
+\colbreak@box=\box110
+\mc@col@check@num=\count314
+\g__mc_curr_col_int=\count315
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/pgfplots/pgfp
+lots.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/pg
+fplots.revision.tex)
+Package: pgfplots 2025/08/14 v1.18.2 Data Visualization (1.18.2)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/pg
+fplots.code.tex
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/pg
+fplotscore.code.tex
+Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
+\pgfplots@luabackend@table=\catcodetable14
+\t@pgfplots@toka=\toks33
+\t@pgfplots@tokb=\toks34
+\t@pgfplots@tokc=\toks35
+\pgfplots@tmpa=\dimen269
+\c@pgfplots@coordindex=\count316
+\c@pgfplots@scanlineindex=\count317
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/sy
+s/pgfplotssysgeneric.code.tex))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/li
+bs/pgfplotslibrary.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/ol
+dpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/librari
+es/pgflibraryfpu.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/ol
+dpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/librari
+es/luamath/pgflibraryluamath.code.tex)
+Package pgfplots info on input line 292: luamath library shipped with pgf 3.1.1
+1a is up-to-date
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/ut
+il/pgfplotsutil.code.tex
+Package pgfplots info on input line 82: Found new luatex: initializing lua comm
+ands instead of write18 (shell-escape)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/li
+ststructure/pgfplotsliststructure.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/li
+ststructure/pgfplotsliststructureext.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/li
+ststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count318
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/li
+ststructure/pgfplotsmatrix.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/nu
+mtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count319
+\t@pgfplotstable@a=\toks36
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/li
+ststructure/pgfplotsdeque.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/ut
+il/pgfplotsbinary.code.tex
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/ut
+il/pgfplotsbinary.data.code.tex))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/ut
+il/pgfplotsutil.verb.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/li
+bs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count320
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/sy
+s/pgflibrarypgfplots.surfshading.pgfsys-luatex.def)))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/ut
+il/pgfplotscolormap.code.tex
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/ut
+il/pgfplotscolor.code.tex))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/pg
+fplotsstackedplots.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/pg
+fplotsplothandlers.code.tex
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/pg
+fplotsmeshplothandler.code.tex
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/pg
+fplotsmeshplotimage.code.tex)))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/pg
+fplots.scaling.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/pg
+fplotscoordprocessing.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/pg
+fplots.errorbars.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/pg
+fplots.markers.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/pg
+fplotsticks.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/pg
+fplots.paths.code.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/fronten
+dlayer/tikz/libraries/tikzlibrarydecorations.code.tex
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/modules
+/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen270
+\pgfdecoratedremainingdistance=\dimen271
+\pgfdecoratedinputsegmentcompleteddistance=\dimen272
+\pgfdecoratedinputsegmentremainingdistance=\dimen273
+\pgf@decorate@distancetomove=\dimen274
+\pgf@decorate@repeatstate=\count321
+\pgfdecorationsegmentamplitude=\dimen275
+\pgfdecorationsegmentlength=\dimen276
+)
+\tikz@lib@dec@box=\box111
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/fronten
+dlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/librari
+es/decorations/pgflibrarydecorations.pathmorphing.code.tex))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/fronten
+dlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/librari
+es/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgfplots/li
+bs/tikzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count322
+\pgfplots@xmin@reg=\dimen277
+\pgfplots@xmax@reg=\dimen278
+\pgfplots@ymin@reg=\dimen279
+\pgfplots@ymax@reg=\dimen280
+\pgfplots@zmin@reg=\dimen281
+\pgfplots@zmax@reg=\dimen282
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/fronten
+dlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/pgf/librari
+es/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/l3backend/l3b
+ackend-luatex.def
+File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count323
+Inserting `l3color' in `luaotfload.parse_color'.) (./intermediate/pattern_relat
+ion.aux)
+\openout1 = pattern_relation.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/context/base/mkii/s
+upp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count324
+\scratchdimen=\dimen283
+\scratchbox=\box112
+\nofMPsegments=\count325
+\nofMParguments=\count326
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count327
+\MPscratchDim=\dimen284
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
+\everyMPtoPDFconversion=\toks38
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/epstopdf-pkg/
+epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/latexconfig/e
+pstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
+ on input line 6.
+
+[1
+
+
+Non-PDF special ignored!{/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/
+fonts/map/pdftex/updmap/pdftex.map}] (./intermediate/pattern_relation.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+)
+
+Here is how much of LuaTeX's memory you used:
+ 23721 strings out of 476076
+ 100000,1373583 words of node,token memory allocated
+ 428 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 51 glue_spec,
+ 5 attribute_list, 2 write nodes
+   avail lists: 2:708,3:557,4:28,5:39,6:2,7:926,9:255,11:54
+ 45491 multiletter control sequences out of 65536+600000
+ 19 fonts using 1250183 bytes
+ 117i,7n,114p,737b,691s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/opentype/public/lm
+/lmsans10-bold.otf></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts
+/opentype/public/lm/lmroman10-regular.otf></opt/homebrew/Cellar/texlive/20260301
+/share/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></opt/homebrew/C
+ellar/texlive/20260301/share/texmf-dist/fonts/opentype/public/lm/lmsans10-regula
+r.otf>
+Output written on pattern_relation.pdf (1 page, 12955 bytes).
+
+PDF statistics: 39 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 1048576)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+
