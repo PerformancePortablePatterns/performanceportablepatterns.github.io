@@ -7,7 +7,7 @@ icon: lucide/play
 This webpage strives to **collect software design patterns that work in performance portable software**.
 The goal is helping software development leverage contemporary heterogeneous hardware effectively.
 Therefore, this website collects and presents software design patterns that work with the various restrictions of portability.
-Ideally, using the patterns on this website prevents software form having to be redesigned when targetting new hardware.
+Ideally, using the patterns on this website prevents software form having to be redesigned when targeting new hardware.
 
 But this website is also a community-hub. Most of the software pattern shown here are already out there in some open-source library.
 The focus of this project/website is to collect and curate them to make them more widely accessible.
@@ -19,13 +19,13 @@ Originally starting as a processor for graphical output, GPUs quickly got adopte
 
 But this created a problem: Scientific codes (like most code) were designed for central processing units (CPUs).
 As GPUs are not only built differently than CPUs and thus excel at different tasks, GPUs also have restrictions in what operations they can even do.
-To make matters worse, different hardware, manufactured by different vendors and shipped with differnt toolchains (compilers, libraries, etc.), has different capabilities and restrictions even if the processor qualifies as the same type (like CPU or GPU).
+To make matters worse, different hardware, manufactured by different vendors and shipped with different toolchains (compilers, libraries, etc.), has different capabilities and restrictions even if the processor qualifies as the same type (like CPU or GPU).
 
 Additionally, every vendor has their own model for programming their hardware that are extensions to existing programming languages like C++ or Fortran.
 This creates a huge problem for software developers that want their code to be written only once but work on all (or at least most) of the processing units that are on the market today.
 Committing to a certain software design might work for the hardware available now, but might violate restrictions of tomorrow's hardware and thus be fundamentally incompatible, triggering a costly refactoring process.
 
-To help developers with writing a single code that can run without modification on differnt hardware, performance portability libraries were developed.
+To help developers with writing a single code that can run without modification on different hardware, performance portability libraries were developed.
 Popular ones that are developed by hardware vendors are [CCCL](https://github.com/nvidia/cccl), [HIP](https://github.com/rocm/hip), and [SYCL](https://www.khronos.org/sycl/)
 They try to abstract the hardware specifics away and hide them behind interfaces that allow users to write their code in a hardware-agnostic manner.
 
@@ -66,7 +66,7 @@ Both can be accessed via the navigational section on the left of the page.
 Don't forget the search, it can really help finding a pattern fast.
 
 ## Acknowledgement
-This page was created as part of an [Better Scientifc Software](https://bssw.io) fellowship. Their website collects insights and tools to make software development more sustainable and help develpers in all areas that modern software entails.
+This page was created as part of an [Better Scientific Software](https://bssw.io) fellowship. Their website collects insights and tools to make software development more sustainable and help developers in all areas that modern software entails.
 The funding details are listed in the footer of this webpage.
 
 

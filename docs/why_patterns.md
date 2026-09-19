@@ -8,13 +8,13 @@ This section motivates why adopting design patterns in development of software i
 
 ## What exactly is a design pattern?
 
-Before we can dive into the advantages of using design patterns in software develoment, we need a minimal definition of what a design pattern is.
-As there are multiple definitions in the literature, which all make valid points, we avoid potential conflicts by defining a pattern by a set of traits of wich most patterns have most of them:
+Before we can dive into the advantages of using design patterns in software development, we need a minimal definition of what a design pattern is.
+As there are multiple definitions in the literature, which all make valid points, we avoid potential conflicts by defining a pattern by a set of traits of which most patterns have most of them:
 
 !!! success ""
 
     - A **reusable** solution of a problem.
-    - Get **adapted** to the problem specifics.
+    - Gets **adapted** to the problem specifics.
     - **Flexible** with respect to language, context, content, etc.
     - A **way to think** about a problem.
     - Object that **encapsulates complexity**.
@@ -41,7 +41,7 @@ Thus the next section focuses on detailing the difference between library and pa
 
 ## How do design patterns relate to other software elements like libraries?
 
-There is no sharp boundary between library functionality and design patterns. Both are used to manage the complexity in an application, reuse exisiting solutions, and a way to think about a problem.
+There is no sharp boundary between library functionality and design patterns. Both are used to manage the complexity in an application, reuse existing solutions, and a way to think about a problem.
 
 For the sake of this argument, libraries are seen as a providing an application with some basic elements that of course are subject to the restrictions of the hardware.
 The developer of the application composes these basic elements in order to perform a certain task.
@@ -74,7 +74,7 @@ While portability libraries (and other libraries) can provide basic elements, th
 And since heterogeneous hardware has a lot of restrictions that are vendor and toolchain specific, the design patterns need to at least be compatible with the restrictions.
 Furthermore, in **performance-portable** software, the design patterns have to work with the superset of all restrictions of all architectures that the application currently supports and strives to support in the future.
 
-The restrictions of the hardware are also the reason why already existing patterns that were created with only CPUs in mind can break when targetting heterogeneous hardware.
+The restrictions of the hardware are also the reason why already existing patterns that were created with only CPUs in mind can break when targeting heterogeneous hardware.
 This limitation does not apply to performance portable design patterns. As they work with the superset of restrictions the software design is portable - no matter which portability library is used underneah.
 
 But design patterns are not magic. A performance portable pattern can at best mitigate all the restrictions by working around them while also being performant.
