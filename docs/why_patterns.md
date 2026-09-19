@@ -11,7 +11,7 @@ This section motivates why adopting design patterns in development of software i
 Before we can dive into the advantages of using design patterns in software develoment, we need a minimal definition of what a design pattern is.
 As there are multiple definitions in the literature, which all make valid points, we avoid potential conflicts by defining a pattern by a set of traits of wich most patterns have most of them:
 
-!!! success "" 
+!!! success ""
 
     - A **reusable** solution of a problem.
     - Get **adapted** to the problem specifics.
@@ -28,7 +28,7 @@ This definition is not specific to the performance-portability context, but give
 
 The description of the last section indicate that using design patterns has quite a lot of advantages for a software project. The following list of what pattern can do is just a start:
 
-!!! abstract "" 
+!!! abstract ""
 
      - Reuse the **proven solution** to common problems in software design, thus reducing risk of design flaws.
      - **Facilitate understanding** code by breaking down the complexity of understanding software into separate entities and their relation.
