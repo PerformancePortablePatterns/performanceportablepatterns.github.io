@@ -15,4 +15,4 @@ jobs:
 
     - uses: crate-ci/typos@v1.43.5
       with:
-        config: ./.typos.toml
+        config: ./.spelling.toml
