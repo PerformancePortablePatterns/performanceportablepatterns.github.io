@@ -29,11 +29,11 @@ $$
 ## Pseudocode
 
 This section features a pseudo code implementation and supplementary description.
-The main forcus is to explain how the pattern works in detail without being specific to a certain language.
+The main focus is to explain how the pattern works in detail without being specific to a certain language.
 Nevertheless, the pseudocode is easy enough for people familiar with any programming language are able to read and understand the code.
-Thus, it will not be complete or executable code but forcusing on the easiest way to present the relevant information.
+Thus, it will not be complete or executable code but focusing on the easiest way to present the relevant information.
 
-## Refernce implementation
+## Reference implementation
 
 In this section, at least one reference implementation that is tested in the project's CI is implemented.
 The reference implementation will feature unit testing and links to the code available on the github page.

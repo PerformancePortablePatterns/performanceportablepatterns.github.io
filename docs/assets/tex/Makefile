@@ -7,3 +7,4 @@ all: $(SVGS)
 %.svg: %.tex
 	latexmk -lualatex -interaction=nonstopmode -output-directory=intermediate $<
 	pdf2svg intermediate/$*.pdf svg/$@
+	rm intermediate/*

@@ -368,5 +368,3 @@ alternate_style = true
 combine_header_slug = true
 [project.markdown_extensions.pymdownx.tasklist]
 custom_checkbox = true
-
-

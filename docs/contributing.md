@@ -10,7 +10,7 @@ Also notice, that every page has a "view source" and "edit" button in the upper 
 
 ## Adding a pattern
 Please also feel free to create pull-requests or issues on github if you want to add a pattern. I will do my best helping to get it on the website.
-Alternatively, you can use my github handle @JBludau anywhere on github you want me to look. 
+Alternatively, you can use my github handle @JBludau anywhere on github you want me to look.
 There is no established process yet (and maybe never will), this will be made up along the ride.
 
 ## Code of Conduct
