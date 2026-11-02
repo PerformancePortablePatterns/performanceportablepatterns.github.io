@@ -25,7 +25,7 @@ NVIDIA-GH200:
   image: nvcr.io/nvidia/cuda:13.3.0-devel-ubuntu26.04
   script:
     - echo "Install dependencies"
-    -  apt-get update && apt-get install -y cmake git python3
+    -  apt-get update && apt-get install -y cmake git python3 libgtest-dev
 
     - echo "Build and install kokkos"
     - git clone https://github.com/kokkos/kokkos.git
@@ -53,7 +53,7 @@ AMD-MI300A:
   image: rocm/dev-ubuntu-26.04:7.14.0-full
   script:
     - echo "Install dependencies"
-    - apt-get update && apt-get install -y cmake git
+    - apt-get update && apt-get install -y cmake git libgtest-dev
 
     - echo "Build and install kokkos"
     - git clone https://github.com/kokkos/kokkos.git
@@ -87,7 +87,7 @@ INTEL-DATA-CENTER-MAX-1100:
   image: intel/oneapi:2026.2.0-devel-ubuntu26.04
   script:
     - echo "Install dependencies"
-    - apt-get update && apt-get install -y git intel-ocloc
+    - apt-get update && apt-get install -y git intel-ocloc libgtest-dev
 
     - echo "Build and install kokkos"
     - git clone https://github.com/kokkos/kokkos.git
