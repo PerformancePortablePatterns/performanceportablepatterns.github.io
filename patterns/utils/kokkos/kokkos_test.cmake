@@ -8,7 +8,7 @@ function(PerformancePortablePatterns_add_kokkos_test ROOT_NAME)
     list(APPEND header_includes "#include \"${header}\"\n")
   endforeach()
 
-  foreach(_device SERIAL PTHREAD OPENMP CUDA HIP)
+  foreach(_device SERIAL PTHREAD OPENMP CUDA HIP SYCL)
     if(Kokkos_ENABLE_${_device})
       string(TOUPPER ${_device} _uppercase_device)
       set(_dir ${CMAKE_CURRENT_BINARY_DIR}/${_uppercase_device})
