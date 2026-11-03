@@ -29,7 +29,7 @@ jobs:
         with:
           host: 'gitlab.spack.io'
           id: ${{ secrets.GITLAB_PROJECT_ID }}
-          ref: ${{ github.head_ref }}
+          ref: ${{ github.head_ref || github.ref_name }}
           trigger_token: ${{ secrets.GITLAB_TRIGGER_TOKEN }}
           access_token: ${{ secrets.GITLAB_SYNC_TOKEN}}
 
